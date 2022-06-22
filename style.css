@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin:auto;
+    border: 1px solid transparent;
+    padding: 28px;
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 55px;
+}
+h3 {
+    text-align: center;
+    padding-top: 55px;
+}
+
+container-img {
+   position: relative;
+   margin: 30px;
+}
+
+
+/* Home */
+
+#logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
+    height: 500px;
+    padding: 28px;
+}
+
+/* About */
+
+#tower-img {
+    float: right;
+    border: 1px solid transparent;
+    height: 460px;
+    padding: 28px;
+}
+
+/* Divisions */
+
+#ul-divisions {
+    display:flex;
+    flex-wrap:wrap;
+    font-size: 25px;
+    margin: auto;
+    border: 1px solid transparent;
+    padding: 28px;
+}
+
+#ul-divisions li {
+    flex-basis: 50%;
+}
+
+#security-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
+    height: 360px;
+    width: 640px;
+    padding: 28px;
+}
+
+#aerospace-img {
+    float: left;
+    border: 1px solid transparent;
+    height: 460px;
+    padding: 28px;
+}
+
+#tech-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
+    height: 353px;
+    width: 627px;
+    padding: 28px;
+}
+
+#industries-img {
+    float: right;
+    border: 1px solid transparent;
+    height: 460px;
+    padding: 28px;
+}
+
+/* Foundation */
+
+#foundation-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid transparent;
+    height: 350px;
+    width: 284px;
+    padding: 28px;
+}
+
+/* Contact */
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    margin: 10px; 
+}
+
+textarea {
+    margin: 10px;
+    width: 50%;
+}
+
+i {
+    width: 20px;
+    margin: auto;
+}
+
+button {
+    margin: 10px;
+    width: 25%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+}
+
+/* Navbar */
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    padding-left: 28px;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    cursor: pointer;
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Responsive */
+
+@media (max-width: 800px) {
+    .sticky {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}

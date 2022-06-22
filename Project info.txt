@@ -1,0 +1,23 @@
+1. Goal = Brochure site. 
+
+2. Target audience = Future Employer
+
+3. Core App Feauture = Homepage – An overview of your business and the opportunity to create a great first impression of your brand. 
+About Us – Who are you? Not only members of staff, but what your history is and core values are.
+Services/Products – The services or products you provide.
+Contact Page – All the contact information someone needs to enquire.
+Additional Information – Sometimes there’s important information there isn’t room for on other pages, this should be the home of any such information.
+
+Branding – Our web design team took the time to understand the brand ethos and core values of the business. This allowed them to create an eye-catching design that captures users’ attention with vibrant colours, imagery, and engaging content.
+Easy Appointment Booking System – A simple-to-use interface was essential, whether someone is booking online or making an enquiry.
+Simple to Scale – The website is templated so is super easy to use as an administrator, whether they want to change the elements on a page or add more pages as the business grows.
+
+4. Technology = HTML, CSS, Javascript
+
+5. Design = 
+
+6. Build Core App Feature = Minimum Viable Product (MVP)
+
+7. Test With Audience
+
+8. Iterate! = Get feedback on every change
